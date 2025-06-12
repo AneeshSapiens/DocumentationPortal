@@ -1,0 +1,739 @@
+﻿/*<meta />*/
+
+/*Use this stylesheet for all documentation*/
+
+:focus
+{
+	outline:none;
+}
+
+p
+{
+	margin-top: 6pt;
+	margin-bottom: 6pt;
+	text-align: left;
+	font-family: Calibri;
+	font-size: 11pt;
+}
+
+/*Use this for notes in content*/
+
+p.note
+{
+	margin-top: 6pt;
+	margin-bottom: 6pt;
+	text-align: left;
+	font-family: Calibri;
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+
+
+/*Use this for the heading on the Table of Contents page used for PDF targets.*/
+
+p.TOCHeading
+{
+	text-align: left;
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	page-break-before: always;
+	margin-top: 24pt;
+	margin-bottom: 0pt;
+	font-weight: bold;
+	font-family: Cambria;
+	color: #365F91;
+	font-size: 14pt;
+	mc-heading-level: 9;
+}
+
+/*Use for Guide Titles in Print-based output*/
+
+p.Title
+{
+	text-align: left;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-family: Calibri;
+	letter-spacing: -1pt;
+	font-size: 30pt;
+	font-weight: bold;
+	color: #17375E;
+}
+
+p.CoverPageVersionDate
+{
+	text-align: left;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-family: Calibri;
+	letter-spacing: -1pt;
+	font-size: 14pt;
+}
+
+/*Use this for header-footer styling in PDF-related snippets*/
+.headerfooter
+{
+	margin-top: 6pt;
+	margin-bottom: 6pt;
+	text-align: left;
+	font-family: Calibri;
+	font-size: 9pt;
+	color: #808080;
+}
+
+p.ListParagraph
+{
+	list-style-type: disc;
+	margin-top: 6pt;
+	margin-bottom: 6pt;
+	text-align: left;
+	text-indent: 21pt;
+	font-size: 11pt;
+	font-family: Calibri;
+}
+
+/*For section headings in the Copyright.htm topic. For example, Document Revision History*/
+
+p.Default
+{
+	margin-left: 0pt;
+	font-family: Cambria;
+	color: #000000;
+	font-size: 12pt;
+}
+
+
+p.NormalFigurecaption
+{
+	text-align: left;
+	font-size: 9pt;
+	margin-top: 0pt;
+	margin-bottom: 10pt;
+	font-weight: bold;
+	font-style: italic;
+	color: black;
+	margin-left: 0pt;
+	font-family: Calibri;
+}
+
+
+p.NormalContinue
+{
+	margin-top: 6pt;
+	margin-bottom: 6pt;
+	text-align: left;
+	font-size: 11pt;
+	margin-left: 17pt;
+	font-family: Calibri;
+}
+
+
+p.Caption
+{
+	text-align: center;
+	font-size: 11pt;
+	margin-top: 0pt;
+	margin-bottom: 10pt;
+	margin-left: 17pt;
+	font-family: Calibri;
+	font-weight: bold;
+	font-style: italic;
+	color: #595959;
+}
+
+p.BodyText
+{
+	text-align: left;
+	font-size: 11pt;
+	orphans: 2;
+	widows: 2;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	margin-left: 18pt;
+	font-family: Calibri;
+}
+
+p.bodytextcourier
+{
+	margin-bottom: 6pt;
+	font-family: 'Courier New';
+	font-size: 11pt;
+	margin-top: 1pt;
+	margin-left: 1pt;
+	margin-right: 69pt;
+}
+
+
+/*Use this for inline code snippets/instances*/
+.couriertext
+{
+	font-family: 'Courier New';
+	font-size: 11pt;
+	background-color: #f7f7f7;
+}
+
+
+p.NormalFigure
+{
+	margin-top: 6pt;
+	margin-bottom: 6pt;
+	text-align: left;
+	font-size: 11pt;
+	font-family: Calibri;
+}
+
+
+p.Heading5JBS
+{
+	margin-top: 6pt;
+	margin-bottom: 6pt;
+	text-align: left;
+	font-size: 11pt;
+	page-break-after: avoid;
+	font-family: Calibri;
+	font-weight: bold;
+}
+
+
+
+p.NormalWeb
+{
+	text-align: left;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-family: 'Times New Roman';
+	font-size: 12pt;
+}
+
+
+
+p.ContactUs
+{
+	page-break-after: avoid;
+	margin-top: 30pt;
+	margin-bottom: 6pt;
+	text-align: left;
+	font-family: 'Rubik Medium';
+	color: #004780;
+	letter-spacing: 0pt;
+	font-size: 14pt;
+}
+
+
+
+p.Body
+{
+	margin-top: 6pt;
+	font-size: 11pt;
+	margin-bottom: 0pt;
+	text-align: left;
+	font-family: Rubik;
+}
+
+/*Use for section headings on the Copyright page*/
+
+p.Default
+{
+	margin-left: 0pt;
+	font-family: Arial;
+	color: #000000;
+	font-size: 11pt;
+}
+
+/*Use for section paragraphs on the Copyright page*/
+
+p.CopyrightPara
+{
+	margin-left: 0pt;
+	font-family: Cambria;
+	color: #000000;
+	font-size: 10pt;
+}
+
+/*All list-related CSS*/
+
+
+ol
+{
+	margin-top: 6pt;
+	margin-bottom: 6pt;
+	text-align: left;
+	font-family: Calibri;
+	font-size: 11pt;
+}
+
+
+ul
+{
+	margin-top: 6pt;
+	margin-bottom: 6pt;
+	text-align: left;
+	font-family: Calibri;
+	font-size: 11pt;
+}
+
+/*Circle bullets*/
+ul.circlebullet
+{
+	list-style-type: circle;
+	margin-top: 6pt;
+	margin-bottom: 6pt;
+	text-align: left;
+	font-family: Calibri;
+	font-size: 11pt;
+}
+
+/*Square bullets*/
+ul.squarebullet
+{
+	list-style-type: square;
+	margin-top: 6pt;
+	margin-bottom: 6pt;
+	text-align: left;
+	font-family: Calibri;
+	font-size: 11pt;
+}
+
+li
+{
+	margin-top: 6pt;
+	margin-bottom: 6pt;
+	text-align: left;
+	font-family: Calibri;
+	font-size: 11pt;
+}
+
+
+li.ListParagraph
+{
+	margin-top: 6pt;
+	margin-bottom: 6pt;
+	text-align: left;
+	font-size: 11pt;
+	font-family: Calibri;
+}
+
+
+
+li.NumberList
+{
+	margin-bottom: 6pt;
+	font-size: 11pt;
+	margin-top: 12pt;
+	text-align: left;
+	font-family: Calibri;
+}
+
+
+
+ul.ul_disc
+{
+	padding-left: 0px;
+	list-style-type: disc;
+}
+
+
+
+li.Bullets
+{
+	margin-top: 6pt;
+	margin-bottom: 6pt;
+	text-align: left;
+	font-size: 11pt;
+	font-family: Calibri;
+	color: #000000;
+}
+
+
+
+p.Bullets
+{
+	margin-top: 6pt;
+	margin-bottom: 6pt;
+	text-align: left;
+	font-size: 11pt;
+	font-family: Calibri;
+	color: #000000;
+}
+
+
+
+p.NumberList
+{
+	margin-bottom: 6pt;
+	font-size: 11pt;
+	margin-top: 12pt;
+	text-align: left;
+	font-family: Calibri;
+}
+
+/*List styles end here*/
+
+a.Hyperlink
+{
+	color: #0000FF;
+	text-decoration: underline;
+}
+
+/*All heading-related CSS*/
+
+h1.Heading1
+{
+	text-align: left;
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	page-break-before: always;
+	margin-top: 24pt;
+	margin-bottom: 0pt;
+	mc-heading-level: 1;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 20pt;
+}
+
+h2.Heading2
+{
+	page-break-after: avoid;
+	margin-top: 24pt;
+	margin-bottom: 12pt;
+	mc-heading-level: 2;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 18pt;
+}
+
+h3.Heading3
+{
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	margin-top: 12pt;
+	margin-bottom: 12pt;
+	mc-heading-level: 3;
+	font-family: Calibri;
+	font-size: 16pt;
+	font-weight: normal;
+}
+
+h4.Heading4
+{
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	margin-top: 10pt;
+	margin-bottom: 10pt;
+	mc-heading-level: 4;
+	font-family: Calibri;
+	font-weight: bold;
+	color: #000000;
+	font-size: 14pt;
+}
+
+h5.Heading5
+{
+	text-align: left;
+	font-size: 12pt;
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	margin-top: 10pt;
+	margin-bottom: 0pt;
+	mc-heading-level: 5;
+	font-family: Calibri;
+	color: #00287b;
+	font-weight: normal;
+}
+
+h6.Heading6
+{
+	text-align: left;
+	font-size: 11pt;
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	margin-top: 2pt;
+	margin-bottom: 0pt;
+	margin-left: 0pt;
+	mc-heading-level: 6;
+	font-family: Calibri;
+	color: #00287b;
+	font-weight: normal;
+}
+
+MadCap|xref.ParaTextOnly
+{
+	mc-format: '{paratext}';
+}
+
+/*For image borders. Set the dimensions via Image Properties Editor in MC Flare.*/
+
+img
+{
+	border: 0.5px solid #C0C0C0;
+}
+
+/*Div For Code Blocks*/
+/*For Code Blocks without background*/
+
+div.div_nofill
+{
+	margin-left: auto;
+	margin-top: auto;
+	width: 100%;
+	height: auto;
+	visibility: visible;
+	padding: 10px;
+	border: 1px solid black;
+	mso-wrap-style: square;
+	mso-width-percent: 0;
+	mso-height-percent: 0;
+	mso-wrap-distance-left: 0;
+	mso-wrap-distance-top: 0;
+	mso-wrap-distance-right: 0;
+	mso-wrap-distance-bottom: 0;
+	mso-position-horizontal: absolute;
+	mso-position-horizontal-relative: page;
+	mso-position-vertical: absolute;
+	mso-position-vertical-relative: text;
+	mso-width-percent: 0;
+	mso-height-percent: 0;
+	mso-width-relative: page;
+	mso-height-relative: page;
+	v-text-anchor: top;
+}
+
+/*For Code Blocks with background*/
+
+div.div_fill
+{
+	left: 0;
+	text-align: left;
+	margin-left: auto;
+	margin-top: auto;
+	padding: 10px;
+	width: 100%;
+	height: auto;
+	visibility: visible;
+	background-color: #d7d7d7;
+	mso-wrap-style: square;
+	mso-width-percent: 0;
+	mso-height-percent: 0;
+	mso-wrap-distance-left: 9pt;
+	mso-wrap-distance-top: 0;
+	mso-wrap-distance-right: 9pt;
+	mso-wrap-distance-bottom: 0;
+	mso-position-horizontal: absolute;
+	mso-position-horizontal-relative: page;
+	mso-position-vertical: absolute;
+	mso-position-vertical-relative: text;
+	mso-width-percent: 0;
+	mso-height-percent: 0;
+	mso-width-relative: page;
+	mso-height-relative: page;
+	v-text-anchor: top;
+}
+
+/*All Span styles start here*/
+/*AdaptersGuide-For text inside code blocks*/
+
+span.span_couriernewblacktext
+{
+	font-family: 'Courier New';
+	color: #000000;
+	font-size: 10pt;
+}
+
+span.span_couriernewbluetext
+{
+	font-family: 'Courier New';
+	color: #0800FD;
+	font-size: 10pt;
+}
+
+span.span_couriernewmaroontext
+{
+	font-family: 'Courier New';
+	font-size: 10pt;
+	color: #93101A;
+}
+
+span.span_couriernewgreentext
+{
+	font-family: 'Courier New';
+	color: #008000;
+	font-size: 10pt;
+}
+
+/*APIGuide-For text inside code blocks*/
+
+span.span_bold
+{
+	font-weight: bold;
+}
+
+span.span_2
+{
+	color: #A65500;
+	font-family: 'Courier New';
+}
+
+span.span_3
+{
+	color: #666615;
+	font-family: 'Courier New';
+}
+
+span.span_4
+{
+	color: #800080;
+	font-family: 'Courier New';
+}
+
+span.span_5
+{
+	color: #5F5035;
+	font-family: 'Courier New';
+}
+
+span.span_6
+{
+	color: #064624;
+	font-family: 'Courier New';
+}
+
+span.span_7
+{
+	color: #80802E;
+	font-family: 'Courier New';
+}
+
+span.span_8
+{
+	color: #0000E6;
+	font-family: 'Courier New';
+}
+
+span.span_9
+{
+	color: #5353DD;
+	font-family: 'Courier New';
+}
+
+span.span_10
+{
+	color: #40005A;
+	font-family: 'Courier New';
+}
+
+/*Use for example, non-real URLs*/
+
+span.Hyperlink
+{
+	color: #0000FF;
+	text-decoration: underline;
+}
+
+div.TopicTemplateDiv	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.TopicTemplateDiv::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.TopicTemplateDiv::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.TopicTemplateDiv > div
+{
+	/*float: left;*/
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 13.5px;
+	padding-right: 13.5px;
+}
+
+div.TopicTemplateDiv > div:nth-child(1)
+{
+	float: left;
+	width: 66.66667%;
+	margin-left: 0%;
+}
+
+div.TopicTemplateDiv > div:nth-child(2)
+{
+	float: right;
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+p.TOC9
+{
+	color: transparent;
+	font-size: 1pt;
+	mc-pagenum-display: none;
+}
+
+MadCap|tocProxy
+{
+	border-top-style: none;
+}
+
+@media tablet
+{
+	div.TopicTemplateDiv > div:nth-child(1)
+	{
+		width: 66.66667%;
+		margin-left: 0%;
+	}
+
+	div.TopicTemplateDiv > div:nth-child(2)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+}
+
+@media mobile
+{
+	div.TopicTemplateDiv > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.TopicTemplateDiv > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+}
+
+/*CSS for the custom header starts here*/
+div.customheader
+{
+	border: none;
+	padding: 10px;
+	background-color: #EDEDED;
+  	overflow-x:auto;
+}
+
+img.header
+{
+	border: none;
+}
+
+a.header
+{
+	font-family: Calibri;
+	font-size: 16pt;
+	color: #45494C;
+	text-decoration: none;
+}
+/*CSS for the custom header ends here*/
